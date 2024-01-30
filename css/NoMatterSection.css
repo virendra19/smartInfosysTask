@@ -1,0 +1,265 @@
+.no_matter_section_container {}
+
+.title_section_underline_container {}
+
+.no_matter_house_img_container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.circle_left_right_container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.circle_left_side_container {
+    position: relative;
+}
+
+.text_circle_container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.text_circle_container p {
+    color: var(--black-color);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.circle_container {
+    width: 90px;
+    height: 90px;
+    box-shadow: 3px 3px 27px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    background-color: var(--white-color);
+}
+
+.circle_container img {
+    width: 50px;
+}
+
+.circle_center_side_container {
+    margin: 40px;
+}
+
+.circle_right_side_container {
+    position: relative;
+}
+
+.half_circle_img_container {
+    position: absolute;
+    top: -28px;
+    right: -22px;
+    z-index: -1;
+}
+
+.c1 {
+    position: relative;
+    bottom: 54px;
+    left: 106px;
+}
+
+.c2 {
+    position: relative;
+    left: 19px;
+}
+
+.c3 {
+    position: relative;
+    top: 66px;
+    left: 71px;
+}
+
+.half_circle_img_container1 {
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-180deg);
+    top: -20px;
+    left: -26px;
+}
+
+.c4 {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    bottom: 50px;
+    right: 73px;
+
+}
+
+.c5 {
+    position: relative;
+    display: flex;
+    right: 53px;
+    flex-direction: row-reverse;
+
+
+}
+
+.c6 {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    top: 55px;
+    right: 59px;
+}
+
+.center_btn_learn_more {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.center_btn_learn_more button {
+    cursor: pointer;
+
+    background-color: var(--primary-color) !important;
+}
+
+.center_btn_learn_more button:hover{
+    background-color: var(--secondary-color) !important;
+
+}
+
+@media (max-width:992px) {
+
+
+    /* .circle_center_side_container,.half_circle_img_container,.half_circle_img_container1,.c1,.c2,.c3,.c4,.c5,.c6{
+        display: none;
+    } */
+    .circle_left_right_container {
+        display: none;
+    }
+
+    .no_matter_six_box_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 100%;
+        margin: 40px auto;
+    }
+
+    .text_circle_box_container {
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        width: 47%;
+    }
+
+    .text_circle_box_container div {
+        width: 46px;
+        min-width: 46px;
+        min-height: 46px;
+        height: 46px;
+        box-shadow: 3px 3px 27px 0 rgba(0, 0, 0, 0.15);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+        background-color: var(--white-color);
+    }
+
+    .text_circle_box_container div img {
+        width: 25px;
+    }
+
+    .text_circle_box_container p {
+        color: var(--black-color);
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 12px;
+    }
+
+    .center_btn_learn_more {
+        width: 220px;
+
+    }
+}
+
+@media (max-width:300px) {
+    .center_btn_learn_more {
+        width: 100%;
+
+    }
+}
+
+
+@media (min-width:767px) and (max-width:992px) {
+    .text_circle_box_container {
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        width: 31% !important;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .no_matter_six_box_container {
+        display: none;
+    }
+
+    .c1 {
+        bottom: 66px;
+        left: 73px;
+        text-align: right;
+    }
+
+    .c2 {
+        text-align: right;
+    }
+
+    .c3 {
+        text-align: right;
+    }
+
+    .c4 {
+        text-align: left;
+
+        bottom: 67px;
+        right: 57px;
+
+    }
+
+    .c5 {
+        text-align: left;
+        right: 30px;
+    }
+
+    .c6 {
+
+        top: 68px;
+        right: 68px;
+    }
+
+    .circle_container {
+        width: 80px;
+        min-width: 80px;
+        height: 80px;
+    }
+
+    .half_circle_img_container1 {
+
+        top: -51px;
+        left: -27px;
+    }
+}
+
+@media (min-width:1199px) {
+    .no_matter_six_box_container {
+        display: none;
+    }
+}

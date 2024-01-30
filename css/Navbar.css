@@ -1,0 +1,315 @@
+.logo_navtabs_buttons_container {
+    background-color: #f6f8fa;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    position: relative;
+}
+
+.logo_img_container {
+    width: 250px;
+}
+
+.navs_container {
+    float: right;
+}
+
+.navs_container li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.navs_container li a {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: var(--black-color);
+    cursor: pointer;
+    font-family: GothamBook;
+    font-weight: 600;
+}
+
+.navs_container li a:hover {
+    color: var(--primary-color);
+}
+
+.number_register_signin_button_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.number_register_signin_button_container a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    color: var(--secondary-color);
+    cursor: pointer;
+
+}
+
+.number_register_signin_button_container a:hover {
+    color: var(--primary-color);
+
+}
+
+.number_register_signin_button_container a img {
+    width: 20px;
+    height: 20px;
+}
+
+.number_register_signin_button_container button {
+    line-height: 42px;
+    background: var(--primary-color);
+    border-radius: 50px;
+    border: 0;
+    padding: 0 14.5px;
+    font-size: 16px;
+    font-family: GothamBook;
+    font-weight: normal;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+.number_register_signin_button_container button:last-child {
+    background: var(--secondary-color) !important;
+}
+
+.number_register_signin_button_container button:hover {
+    background: var(--secondary-color);
+
+}
+
+.number_register_signin_button_container button:last-child:hover {
+    background: var(--primary-color) !important;
+
+}
+
+#menu_check {
+    display: none;
+}
+
+.menu_icon_container {
+    display: none;
+}
+
+.navs_numbers_btns_container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+}
+
+.hide_in_web,
+.close_btn {
+    display: none;
+}
+
+
+
+@media (max-width:992px) {
+    .logo_img_container {
+        width: 110px;
+        min-width: 110px;
+    }
+
+    .hide_in_small_device {
+        display: none;
+    }
+
+    .hide_in_web {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 30px;
+        justify-content: space-between;
+        width: 100%;
+        padding: 5px 15px 0 !important;
+
+    }
+
+    .hide_in_web a {
+        font-size: 13px;
+        gap: 5px;
+    }
+
+    .hide_in_web div {
+        display: flex;
+        gap: 5;
+        flex-wrap: wrap;
+    }
+
+    .hide_in_web div button:last-child {
+        margin: 0 0 0 5px;
+    }
+
+    .logo_navtabs_buttons_container {
+        padding: 50px 15px 25px;
+    }
+
+    .menu_icon_container {
+        display: inline-block;
+        background: transparent;
+        border: 0;
+        font-size: 18px;
+        margin: 0 15px 0 0;
+    }
+
+    .close_btn {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        z-index: 1;
+        color: var(--white-color);
+        font-size: 20px;
+    }
+
+    .close_btn:hover {
+        color: var(--black-color);
+    }
+
+    .navs_container {
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -100%;
+        background-color: var(--secondary-color);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 15% 0 0;
+        transition: .5s all ease-in-out;
+    }
+
+    .navs_container li a {
+        color: var(--white-color);
+        padding: 0 0 5px 0;
+    }
+
+    .navs_container li a:hover {
+        color: #8cd1ff;
+        border-bottom: 2px solid var(--white-color);
+        border-radius: 2px;
+
+    }
+
+    .number_register_signin_button_container {
+        gap: 5px;
+        padding: 5px 0 0;
+    }
+
+    .number_register_signin_button_container {}
+
+    .number_register_signin_button_container button {
+        line-height: 28px;
+        background: var(--primary-color);
+        border-radius: 50px;
+        border: 0;
+        padding: 0 10.5px;
+        font-size: 12px;
+        font-family: GothamBook;
+        font-weight: normal;
+        color: #fff;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width:300px) {
+    .hide_in_web a {
+        font-size: 10px;
+        gap: 3px;
+        font-weight: 600;
+    }
+
+    .hide_in_web div button {
+        line-height: 24px;
+        padding: 0 10.5px;
+        font-size: 10px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .logo_navtabs_buttons_container {
+        height: 60px;
+    }
+    .navs_numbers_btns_container {
+        gap: 20px;
+    }
+    .number_register_signin_button_container button {
+        line-height: 33px;
+      
+        padding: 0px 11.5px;
+        font-size: 14px;
+    }
+    .navs_container {
+        display: flex;
+        gap: 5px;
+    }
+    .navs_container li {
+        display: inline-block;
+        margin: 0 0px;
+    }
+    .logo_img_container {
+        width: 130px;
+    }
+    .navs_container li a {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 22px;
+        font-size: 14px;
+    }
+    .number_register_signin_button_container a img {
+        width: 25px;
+        height: 25px;
+    }
+    .number_register_signin_button_container a {
+        gap: 5px;
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width:1199px) {
+    .logo_navtabs_buttons_container {
+        height: 60px;
+    }
+}
+
+/* @media (min-width:767px) and (max-width:992px) {
+    .logo_img_container {
+        width: 125px;
+    }
+
+    .logo_navtabs_buttons_container {
+        height: 60px;
+    }
+    .number_register_signin_button_container button {
+        line-height: 30px;
+      
+        padding: 0 13.5px;
+        font-size: 14px;;
+    }
+    .navs_container li a {
+        font-size: 16px;
+    }    
+    .number_register_signin_button_container a {
+        gap: 5px;
+        font-size: 14px;
+    }
+} */
