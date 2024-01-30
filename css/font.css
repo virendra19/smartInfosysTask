@@ -1,0 +1,49 @@
+/* Corporative font */
+@font-face {
+    font-family: "CorporativeReg";
+    src: url('../assets/fonts/CorporativeSansRdAlt\ W00\ Rg.ttf');
+}
+
+@font-face {
+    font-family: "CorporativeRegI";
+    src: url('../assets/fonts/CorporativeSansRdAlt\ W00\ Rg\ It.ttf');
+}
+
+@font-face {
+    font-family: "CorporativeBold";
+    src: url('../assets/fonts/CorporativeSansRdAlt\ W00\ Bold.ttf');
+}
+@font-face {
+    font-family: "CorporativeBoldI";
+    src: url('../assets/fonts/CorporativeSansRdAlt\ W00\ Bd\ It.ttf');
+}
+@font-face {
+    font-family: "CorporativeBlack";
+    src: url('../assets/fonts/CorporativeSansRdAlt\ W00\ Black.ttf');
+}
+
+@font-face {
+    font-family: "CorporativeBlackI";
+    src: url('../assets/fonts/CorporativeSansRdAlt\ W00\ Blk\ It.ttf');
+}
+
+@font-face {
+    font-family: "CorporativeBook";
+    src: url('../assets/fonts/CorporativeSansRdAlt\ W00\ Book.ttf');
+}
+
+/* GothamBook font */
+
+
+@font-face {
+    font-family: "GothamBook";
+    src: url('../assets/fonts/GothamBook.ttf');
+}
+
+/* LatinoType font */
+
+
+@font-face {
+    font-family: "LatinoType";
+    src: url('../assets/fonts/Latinotype\ -\ CorpSansRdAlt-BlackCnd.otf');
+}
